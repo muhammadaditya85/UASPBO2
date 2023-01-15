@@ -1,3 +1,5 @@
+import javax.swing.JOptionPane;
+
 public class DataTypes {
  public static void main(String [] args) {
 
@@ -17,6 +19,8 @@ public class DataTypes {
   System.out.println("Target Kuliah : " + targetTahunKuliah + " tahun");
   System.out.println("IPK : " + ipk);
   System.out.println("Nilai PBO : " + nilaiAbjad);
-  System.out.println("Tampan : " + tampan);
+  System.err.println("Tampan : " + tampan);
+  
+  JOptionPane.showMessageDialog(null, "Hai, " + namaDepan + namaTengah + namaBelakang);
  }
 }
